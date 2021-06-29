@@ -18,7 +18,7 @@ pipeline {
 	stage('Deploy') {
 	    steps {
 	        sh 'sleep 2'
-	        'Successfully deployed to production!'
+	        echo 'Successfully deployed to production!'
 	    }
 	}
     }
